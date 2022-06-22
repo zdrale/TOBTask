@@ -2,7 +2,7 @@ import Card from "./Card";
 import styles from "./Cards.module.css";
 import { useState } from "react";
 
-function NewComp() {
+function Cards() {
   const [numberOfCards, setNumberOfCards] = useState([1, 2, 3, 4]);
   return (
     <div className={styles.parent}>
@@ -13,4 +13,4 @@ function NewComp() {
   );
 }
 
-export default NewComp;
+export default Cards;

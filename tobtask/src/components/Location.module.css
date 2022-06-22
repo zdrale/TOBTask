@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.propertyText {
+    display: flex;
+    flex-direction: column;
+    line-height:70%;
+    font-size: 0.7rem;
+    margin-left: -9%;
+}
+
+.parent img {
+    height: 80%;
+    width: 10%;
+}
