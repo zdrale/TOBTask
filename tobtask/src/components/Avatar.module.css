@@ -1,0 +1,32 @@
+.parent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30%;  
+}
+
+.avatar {
+    height: 15%;
+    width: 15%;
+}
+
+.email{
+    margin-top: -3%;
+}
+
+.gearWrapper{
+    border: 1px solid black;
+    width: 12%;
+    border-radius: 10px;
+}
+
+.gear {
+    height: 100%;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}

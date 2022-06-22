@@ -1,0 +1,41 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 15%;
+    padding: 1%;
+}    
+
+.about{
+    margin-right: 10%;
+}
+
+.imageParent{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+
+.search {
+    max-width: 15%;
+    max-height: 15%;
+    margin-right: -10%;
+    margin-top: 3%;
+}
+
+.bell {
+    max-width: 15%;
+    max-height: 15%;
+    margin-right: -16%;
+    margin-top: 3%;
+}
+
+.button {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
