@@ -1,5 +1,5 @@
 import Card from "./Card";
-import styles from "./NewComp.module.css";
+import styles from "./Cards.module.css";
 import { useState } from "react";
 
 function NewComp() {
