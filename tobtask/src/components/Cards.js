@@ -1,10 +1,16 @@
-import styles from './'
+import Card from "./Card";
+import styles from "./NewComp.module.css";
+import { useState } from "react";
 
-function Card() {
-  return <div className=styles.card>
-    <p>Revenue</p>
-    <h2>$950.031</h2>
-</div>;
+function NewComp() {
+  const [numberOfCards, setNumberOfCards] = useState([1, 2, 3, 4, 5, 6]);
+  return (
+    <div className={styles.parent}>
+      {numberOfCards.map(() => {
+        return <Card />;
+      })}
+    </div>
+  );
 }
 
-export default Card;
+export default NewComp;

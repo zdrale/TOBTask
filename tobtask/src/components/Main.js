@@ -1,7 +1,6 @@
 import styles from "./Main.module.css";
 import search from "../assets/search.png";
 import bell from "../assets/bell.png";
-
 function Main() {
   return (
     <div className={styles.parent}>
